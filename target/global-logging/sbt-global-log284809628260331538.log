@@ -1,0 +1,128 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.0 (AdoptOpenJDK Java 1.8.0_292)
+[debug]       Load.loadUnit: plugins took 122.403417ms
+[debug]       Load.loadUnit: defsScala took 0.918333ms
+[debug] [Loading] Scanning directory /Users/norihito.nakata/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/norihito.nakata/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 20.719208 ms
+[debug]           Load.resolveProject(global-plugins) took 64.577917ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /Users/norihito.nakata/.sbt/1.0/plugins, plugins: List(<none>))) took 116.383708ms
+[debug] [Loading] Done in /Users/norihito.nakata/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 143.526333ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.19975ms
+[debug]     Load.loadUnit(file:/Users/norihito.nakata/.sbt/1.0/plugins/, ...) took 279.1915ms
+[debug]   Load.apply: load took 847.063667ms
+[debug]   Load.apply: resolveProjects took 19.483875ms
+[debug]   Load.apply: finalTransforms took 179.506625ms
+[debug]   Load.apply: config.delegates took 9.458375ms
+[debug]   Load.apply: Def.make(settings)... took 1194.68025ms
+[debug]   Load.apply: structureIndex took 282.918291ms
+[debug]   Load.apply: mkStreams took 1.367459ms
+[info] loading global plugins from /Users/norihito.nakata/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 4694.772084ms
+[debug]                 Load.loadUnit: plugins took 37.085083ms
+[debug]                 Load.loadUnit: defsScala took 0.005667ms
+[debug] [Loading] Scanning directory /Users/norihito.nakata/personal/scala/cats/project/project
+[debug]                   Load.loadUnit: mkEval took 24.536458ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/norihito.nakata/personal/scala/cats/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 10.4945 ms
+[info] loading settings for project cats-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(cats-build-build) took 12.330958ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id cats-build-build, base: /Users/norihito.nakata/personal/scala/cats/project/project, plugins: List(<none>))) took 25.3715ms
+[debug] [Loading] Done in /Users/norihito.nakata/personal/scala/cats/project/project, returning: (cats-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 3844.573375ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 4.091458ms
+[debug]               Load.loadUnit(file:/Users/norihito.nakata/personal/scala/cats/project/project/, ...) took 3889.399833ms
+[debug]             Load.apply: load took 3898.187708ms
+[debug]             Load.apply: resolveProjects took 0.453958ms
+[debug]             Load.apply: finalTransforms took 25.476041ms
+[debug]             Load.apply: config.delegates took 1.46775ms
+[debug]             Load.apply: Def.make(settings)... took 479.289833ms
+[debug]             Load.apply: structureIndex took 80.044833ms
+[debug]             Load.apply: mkStreams took 0.018375ms
+[info] loading project definition from /Users/norihito.nakata/personal/scala/cats/project/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 7102.749667ms
+[debug]           Load.loadUnit: defsScala took 0.005667ms
+[debug] [Loading] Scanning directory /Users/norihito.nakata/personal/scala/cats/project
+[debug]             Load.loadUnit: mkEval took 1.033292ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/norihito.nakata/personal/scala/cats/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 8.516834 ms
+[info] loading settings for project cats-build from metals.sbt ...
+[debug]               Load.resolveProject(cats-build) took 29.296833ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id cats-build, base: /Users/norihito.nakata/personal/scala/cats/project, plugins: List(<none>))) took 40.311042ms
+[debug] [Loading] Done in /Users/norihito.nakata/personal/scala/cats/project, returning: (cats-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 1856.132917ms
+[debug]           Load.loadUnit: cleanEvalClasses took 2.410584ms
+[debug]         Load.loadUnit(file:/Users/norihito.nakata/personal/scala/cats/project/, ...) took 8963.805792ms
+[debug]       Load.apply: load took 8971.445958ms
+[debug]       Load.apply: resolveProjects took 0.792875ms
+[debug]       Load.apply: finalTransforms took 37.835833ms
+[debug]       Load.apply: config.delegates took 3.28675ms
+[debug]       Load.apply: Def.make(settings)... took 364.486291ms
+[debug]       Load.apply: structureIndex took 52.671542ms
+[debug]       Load.apply: mkStreams took 0.002042ms
+[info] loading project definition from /Users/norihito.nakata/personal/scala/cats/project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Generated .bloop/cats-build.json
+[success] Total time: 6 s, completed May 18, 2024 8:54:18 AM
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 15757.947375ms
+[debug]     Load.loadUnit: defsScala took 0.004333ms
+[debug] [Loading] Scanning directory /Users/norihito.nakata/personal/scala/cats
+[debug]       Load.loadUnit: mkEval took 0.329791ms

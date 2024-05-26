@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0m[cats-handson-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[cats-handson-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'cats-handson-build' to '/Users/norihito.nakata/personal/scala/cats-handson/project/.bloop/cats-handson-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/cats-handson-build.json[0m

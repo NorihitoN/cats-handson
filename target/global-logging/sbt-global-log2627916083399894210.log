@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(console, Some(97efe912-966e-4101-9ecd-313c51bc2cf8), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / console[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/norihito.nakata/personal/scala/cats/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/norihito.nakata/personal/scala/cats/src/main/scala/Main.scala:27:28: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : List[String][0m
+[0m[[0m[31merror[0m] [0m[0m required: Vector[String][0m
+[0m[[0m[31merror[0m] [0m[0m      case 0 => Writer(List(s"Finished with $a"), a)[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/norihito.nakata/personal/scala/cats/src/main/scala/Main.scala:28:79: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : cats.data.Writer[Vector[String],Int][0m
+[0m[[0m[31merror[0m] [0m[0m    (which expands to)  cats.data.WriterT[cats.Id,Vector[String],Int][0m
+[0m[[0m[31merror[0m] [0m[0m required: cats.data.WriterT[cats.Id,List[String],?][0m
+[0m[[0m[31merror[0m] [0m[0m      case _ => Writer(List(s"$a mod $b = ${a % b}"), a % b).flatMap(_ => gcd3(b, a % b))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/norihito.nakata/personal/scala/cats/src/main/scala/Main.scala:28:69: polymorphic expression cannot be instantiated to expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : [U]cats.data.WriterT[cats.Id,List[String],U][0m
+[0m[[0m[31merror[0m] [0m[0m required: cats.data.Writer[Vector[String],Int][0m
+[0m[[0m[31merror[0m] [0m[0m    (which expands to)  cats.data.WriterT[cats.Id,Vector[String],Int][0m
+[0m[[0m[31merror[0m] [0m[0m      case _ => Writer(List(s"$a mod $b = ${a % b}"), a % b).flatMap(_ => gcd3(b, a % b))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 4 s, completed May 21, 2024 1:24:00 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

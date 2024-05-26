@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(console, Some(4e57e959-9370-46c9-84ea-bace88f2d31c), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / console[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/norihito.nakata/personal/scala/cats/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/norihito.nakata/personal/scala/cats/src/main/scala/Main.scala:36:23: value flatMap is not a member of UserRepo => User[0m
+[0m[[0m[31merror[0m] [0m[0m      user <- findUser(name)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/norihito.nakata/personal/scala/cats/src/main/scala/Main.scala:37:22: value map is not a member of UserRepo => User[0m
+[0m[[0m[31merror[0m] [0m[0m      boss <- getUser(user.parentId)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/norihito.nakata/personal/scala/cats/src/main/scala/Main.scala:50:32: value map is not a member of UserRepo => Map[String,String][0m
+[0m[[0m[31merror[0m] [0m[0m      fred <- UserInfo.userInfo("Fred")[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed May 23, 2024 8:59:02 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
